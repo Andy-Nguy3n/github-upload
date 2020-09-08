@@ -1,0 +1,7 @@
+//used to sense the motion of the mouse
+ this.addMouseMotionListener(new motionListener());
+ private class motionListener implements MouseMotionListener{
+        @Override public void mouseMoved(MouseEvent me) {}
+        @Override public void mouseDragged(MouseEvent me) {}
+    }
+//executable codes are put inside the overwritten methods
